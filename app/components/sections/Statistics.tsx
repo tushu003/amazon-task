@@ -33,7 +33,7 @@ const statsData: StatItem[] = [
 export default function Statistics() {
   return (
     <main className="bg-[#f3f3f3]">
-      <section className="mx-auto max-w-[1440px] px-4 md:px-8 md:py-4">
+      <section className="mx-auto max-w-[1440px] px-4 lg:py-12 md:py-12 py-6">
         <h2 className="mb-10 text-center text-[20px] font-bold leading-tight text-[#151515] md:text-[34px]">
           Amazon Market Statistics Worldwide 2024
         </h2>
