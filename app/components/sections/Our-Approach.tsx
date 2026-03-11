@@ -25,7 +25,7 @@ const approachTabs: ApproachTab[] = [
 export default function OurApproach() {
   return (
     <section className="bg-[#0a0a0a]">
-      <div className="mx-auto grid max-w-[1280px] grid-cols-1 items-center gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[440px_1fr] lg:px-8 lg:py-24">
+      <div className="mx-auto grid max-w-[1440px] grid-cols-1 items-center gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[440px_1fr] lg:px-8 lg:py-24">
         <div className="flex justify-center gap-4 lg:justify-start">
           <div className="relative h-[305px] w-[190px] overflow-hidden rounded-[16px]">
             <Image
@@ -47,7 +47,7 @@ export default function OurApproach() {
         </div>
 
         <div className="max-w-[600px]">
-          <h2 className="text-[42px] font-extrabold leading-[1] tracking-[-0.03em] text-white sm:text-[54px] lg:text-[66px]">
+          <h2 className="text-[42px] font-extrabold leading-[1] tracking-[-0.03em] text-white sm:text-[48px] lg:text-[54px]">
             Our <span className="text-[#f5a000]">Approach</span>
           </h2>
 
