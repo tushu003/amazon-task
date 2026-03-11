@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { FiCheckCircle } from "react-icons/fi";
 import amazonIcon from "../../../public/assets/icons/amazon.png";
@@ -55,7 +56,7 @@ const servicesData: ServiceItem[] = [
 
 export default function OurServices() {
   return (
-    <section className="bg-[#f3f3f3]">
+    <section id="services" className="bg-[#f3f3f3]">
       <div className="mx-auto max-w-[1440px] px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-[760px] text-center">
           <div className="mb-5 flex items-center justify-center gap-3">

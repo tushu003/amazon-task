@@ -1,2 +1,21 @@
+
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar: solid white only — gradient does not apply here */
+.hero-navbar {
+  background: #ffffff;
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    180deg,
+    #fffefe 0%,
+    rgba(255, 165, 0, 0.06) 35%,
+    rgba(255, 165, 0, 0.18) 70%,
+    rgba(255, 165, 0, 0.32) 100%
+  );
+}

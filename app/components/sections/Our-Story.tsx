@@ -1,6 +1,8 @@
+
 import React from "react";
-import amazonIcon from "../../../public/assets/icons/amazon.png";
 import Image from "next/image";
+import CTAButton from "../ui/CTAButton";
+import amazonIcon from "../../../public/assets/icons/amazon.png";
 
 type StoryContent = {
   badgeText: string;
@@ -29,7 +31,7 @@ const storyContent: StoryContent = {
 
 export default function OurStory() {
   return (
-    <main className="bg-[#f3f3f3]">
+    <main id="about" className="bg-[#f3f3f3]">
       <section className="mx-auto flex py-4 lg:py-20px md:py-10 max-w-[1440px] items-center ">
         <div className="mx-auto text-center">
           <div className="mb-8 flex items-center justify-center gap-3">
@@ -60,12 +62,7 @@ export default function OurStory() {
           </p>
 
           <div className="mt-10">
-            <button
-              type="button"
-              className="inline-flex min-h-[56px] items-center justify-center rounded-full border-bl-3 border-[#1f1f1f] bg-[#FFA500] px-8 text-base font-semibold text-white shadow-[4px_4px_0_0_#1f1f1f] transition duration-200 hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_0_#1f1f1f]"
-            >
-              {storyContent.buttonText}
-            </button>
+            <CTAButton>{storyContent.buttonText}</CTAButton>
           </div>
         </div>
       </section>

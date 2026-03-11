@@ -1,3 +1,4 @@
+
 import { FaAmazon, FaGlobe } from "react-icons/fa";
 import { FiClock, FiMonitor, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
@@ -57,7 +58,7 @@ const weekDays = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"];
 
 export default function ContactBooking() {
   return (
-    <section className="overflow-x-hidden bg-[#f3f3f3]">
+    <section id="contact" className="overflow-x-hidden bg-[#f3f3f3]">
       <div className="mx-auto w-full max-w-[1280px] px-4 py-12 sm:px-6 sm:py-14 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-[760px] text-center">
           <div className="mb-4 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
@@ -65,8 +66,8 @@ export default function ContactBooking() {
               <Image
                 src={amazonIcon}
                 alt="Badge Icon"
-                width={60}
-                height={60}
+                width={50}
+                height={50}
                 className="h-[42px] w-auto sm:h-[52px] lg:h-[60px]"
               />
             </div>

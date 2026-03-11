@@ -1,5 +1,7 @@
+
 import Image from "next/image";
 import React from "react";
+import CTAButton from "../ui/CTAButton";
 import amazonIcon from "../../../public/assets/icons/amazon.png";
 import fintrix from "../../../public/assets/hero/fintrixx.png";
 
@@ -42,12 +44,9 @@ export default function WhyChooseUs() {
             </span>
           </p>
 
-          <button
-            type="button"
-            className="mt-10 inline-flex min-h-[56px] items-center justify-center rounded-full border-bl-3 border-white bg-[#f5a000] px-8 text-base font-semibold text-white shadow-[3px_3px_0_0_#ffffff] transition duration-200 hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_0_#ffffff]"
-          >
+          <CTAButton variant="dark" className="mt-10">
             Book a Free Consultation
-          </button>
+          </CTAButton>
         </div>
 
         <div>

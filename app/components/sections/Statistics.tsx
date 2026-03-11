@@ -1,5 +1,7 @@
+
 "use client";
 import React from "react";
+import CTAButton from "../ui/CTAButton";
 
 type StatItem = {
   id: number;
@@ -53,6 +55,10 @@ export default function Statistics() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <CTAButton>Book a Free Consultation</CTAButton>
         </div>
       </section>
     </main>

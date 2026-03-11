@@ -1,5 +1,7 @@
+
 import Image from "next/image";
 import { FiTarget, FiGlobe } from "react-icons/fi";
+import CTAButton from "../ui/CTAButton";
 
 type ApproachTab = {
   id: number;
@@ -88,12 +90,9 @@ export default function OurApproach() {
                         ease.
                       </p>
 
-                      <button
-                        type="button"
-                        className="mt-8 inline-flex min-h-[54px] items-center justify-center rounded-full border-bl-3 border-white bg-[#f5a000] px-8 text-base font-semibold text-white shadow-[3px_3px_0_0_#ffffff] transition duration-200 hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0_0_#ffffff]"
-                      >
+                      <CTAButton variant="dark" className="mt-8">
                         Book a Free Strategy Call
-                      </button>
+                      </CTAButton>
                     </>
                   )}
                 </div>
