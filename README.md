@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+````md
+# Amazon Partner Landing Page
+
+A modern, responsive landing page built with **Next.js**, **React**,**TypeScript** and **Tailwind CSS**. This project is designed to showcase Amazon-focused services with a clean hero section, responsive navigation, reusable UI components, and conversion-focused call-to-action sections.
+
+## Features
+
+- Responsive hero section for all devices
+- Modern navigation with mobile-friendly menu support
+- Reusable UI components
+- Optimized image handling with Next.js `Image`
+- Smooth section-based navigation
+- Built with scalable and maintainable component structure
+- Tailwind CSS utility-first styling
+
+## Tech Stack
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+
+## Project Structure
+
+```bash
+src/
+├── app/
+├── components/
+│   ├── ui/
+│   └── sections/
+├── public/
+│   └── assets/
+└── styles/
+````
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/tushu003/amazon-task
+```
+
+### 2. Navigate into the project directory
+
+```bash
+cd your-repository-name
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Now open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev
+npm run build
+npm run start
+npm run lint
+```
 
-## Learn More
+## Components Overview
 
-To learn more about Next.js, take a look at the following resources:
+### Hero Section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The hero section includes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Brand-focused headline
+* Supporting subtext
+* Call-to-action button
+* Floating visual cards
+* Responsive layout for mobile, tablet, and desktop
 
-## Deploy on Vercel
+### Navigation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The navigation is fully responsive:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Inline navigation for desktop
+* Mobile menu for smaller devices
+* Active hash-based section highlighting
+
+## Styling
+
+This project uses **Tailwind CSS** for styling. Utility classes are used to keep the UI consistent, responsive, and easy to maintain.
+
+## Images & Assets
+
+Static images and icons are stored in the `public/assets` directory and rendered using Next.js image optimization.
+
+## Customization
+
+You can easily customize:
+
+* Logo
+* Brand colors
+* Hero heading and CTA text
+* Navigation items
+* Section content
+* Visual assets
+
+## Deployment
+
+This project can be deployed easily on:
+
+* **Vercel**
+* **Netlify**
+* **Any Node.js-compatible hosting platform**
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Best Practices Used
+
+* Component-based architecture
+* Clean and reusable code structure
+* Responsive-first design approach
+* Semantic HTML for accessibility
+* Optimized image rendering
+* Maintainable Tailwind utility patterns
+
+## Future Improvements
+
+* Add animation effects
+* Add dark mode support
+* Improve accessibility further
+* Integrate contact form backend
+* Add SEO metadata enhancements
+
+## Author
+
+Developed by **Tahmina**
+
+
+```
+```
